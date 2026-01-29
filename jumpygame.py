@@ -207,7 +207,7 @@ while run:
 
         # generate platform
         if len(platform_group) < MAX_PLATFORMS:
-            p_w = 180
+            p_w = (random.randint(70, 80))
             p_h = 40
             p_x = random.randint(0, SCREEN_WIDTH - p_w)
             p_y = platform.rect.y - random.randint(80, 120)
